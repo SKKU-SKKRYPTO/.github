@@ -1,4 +1,4 @@
-[![SKKRYPTO — 블록체인의 대중화를 함께 만들어 갑니다](https://raw.githubusercontent.com/SKKU-SKKRYPTO/.github/main/profile/banner.png)](https://skkrypto.org)
+[![SKKRYPTO — 블록체인의 대중화를 함께 만들어 갑니다](https://raw.githubusercontent.com/SKKU-SKKRYPTO/.github/refs/heads/main/profile/banner.png)](https://skkrypto.org)
 
 # SKKRYPTO
 
