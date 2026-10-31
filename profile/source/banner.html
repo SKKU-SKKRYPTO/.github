@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- profile/banner.png 원본. 색과 글꼴은 skkrypto.org를 따른다. 이 폴더에서 다시 만들려면:
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars \
+       --force-device-scale-factor=2 --window-size=1280,400 --virtual-time-budget=8000 \
+       --screenshot=../banner.png "file://$PWD/banner.html" -->
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@600&display=block">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:400px;overflow:hidden}
+body{position:relative;font-family:"Pretendard Variable",sans-serif;color:#fff;
+ background:radial-gradient(ellipse 60% 90% at 78% 30%,#356552 0%,rgba(53,101,82,0) 70%),linear-gradient(135deg,#1a332a 0%,#11221c 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(143,188,168,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(143,188,168,.05) 1px,transparent 1px);background-size:40px 40px}
+svg.net{position:absolute;right:30px;top:20px;width:360px;height:360px}
+.content{position:absolute;left:80px;top:72px}
+.brand{display:flex;align-items:center;gap:18px}
+.logo{width:60px;height:60px;border-radius:15px;background:#fff;display:flex;align-items:center;justify-content:center}
+.logo img{width:46px;height:46px}
+.name{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:32px;letter-spacing:.02em}
+.tag{margin-top:40px;font-family:"JetBrains Mono",monospace;font-weight:600;font-size:15px;letter-spacing:.32em;color:#8fbca8}
+h1{margin-top:14px;font-weight:800;font-size:50px;letter-spacing:-.02em;line-height:1.2}
+h1 span{color:#a7f3d0}
+.foot{margin-top:30px;font-size:17px;color:#bbd8cb;opacity:.85}
+.foot i{font-style:normal;color:#5e9a82;margin:0 12px}
+</style></head><body>
+<div class="grid"></div>
+<svg class="net" viewBox="20 20 480 340">
+ <g stroke="#5e9a82" stroke-opacity=".55" stroke-width="1.2" fill="none">
+  <path d="M40 60L130 115L250 80L340 45L380 140L300 180L200 230L130 300M130 115L60 190L200 230M250 80L300 180L440 230M380 140L470 95M300 180L360 300L440 230M200 230L260 330L360 300"/>
+ </g>
+ <g fill="#8fbca8">
+  <circle cx="40" cy="60" r="5"/><circle cx="130" cy="115" r="6"/><circle cx="250" cy="80" r="5"/><circle cx="340" cy="45" r="5"/>
+  <circle cx="380" cy="140" r="6"/><circle cx="300" cy="180" r="7"/><circle cx="200" cy="230" r="5"/><circle cx="130" cy="300" r="5"/>
+  <circle cx="60" cy="190" r="4"/><circle cx="440" cy="230" r="6"/><circle cx="470" cy="95" r="4"/><circle cx="360" cy="300" r="5"/><circle cx="260" cy="330" r="4"/>
+ </g>
+</svg>
+<div class="content">
+ <div class="brand"><div class="logo"><img src="icon.png"></div><div class="name">SKKRYPTO</div></div>
+ <div class="tag">WEB3 AND BEYOND</div>
+ <h1>블록체인의 대중화를 <span>함께 만들어 갑니다</span></h1>
+ <div class="foot">skkrypto.org<i>·</i>성균관대학교 블록체인 학회<i>·</i>Est. 2018</div>
+</div>
+</body></html>
